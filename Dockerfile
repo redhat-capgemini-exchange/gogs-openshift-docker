@@ -1,4 +1,4 @@
-FROM ubi7/ubi-minimal
+FROM registry.access.redhat.com/ubi7/ubi-minimal
 
 MAINTAINER Michael Kuehl <mkuehl@gmail.com>
 
