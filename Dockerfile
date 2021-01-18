@@ -21,9 +21,9 @@ COPY ./root /
 
 RUN yum -y install epel-release nss_wrapper gettext
 
-RUN wget -O /etc/yum.repos.d/gogs.repo \
-    https://dl.packager.io/srv/gogs/gogs/main/installer/el/7.repo \
-    yum install gogs
+#RUN wget -O /etc/yum.repos.d/gogs.repo \
+#    https://dl.packager.io/srv/gogs/gogs/main/installer/el/7.repo \
+#    yum install gogs
 
 RUN yum -y clean all && \
     mkdir -p /var/lib/gogs
