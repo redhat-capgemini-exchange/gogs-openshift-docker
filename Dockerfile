@@ -1,4 +1,4 @@
-FROM centos:7
+FROM ubi7/ubi-minimal
 
 MAINTAINER Michael Kuehl <mkuehl@gmail.com>
 
