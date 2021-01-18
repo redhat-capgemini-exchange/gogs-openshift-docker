@@ -19,7 +19,7 @@ ENV HOME=/var/lib/gogs
 
 COPY ./root /
 
-RUN yum -y install epel-release nss_wrapper gettext
+RUN yum -y nss_wrapper gettext
 
 #RUN wget -O /etc/yum.repos.d/gogs.repo \
 #    https://dl.packager.io/srv/gogs/gogs/main/installer/el/7.repo \
